@@ -306,7 +306,7 @@ Board create_board(Allocator *allocator, s32 rows, s32 columns, s32 player_count
     // board.squares = new_array<Board_Square>(allocator, (s64)(rows * columns));
     board.squares = new_array<Board_Square>(allocator, rows * columns);
 
-    board.player_count = player_count;
+    // board.player_count = player_count;
     board.players = new_array<Board_Player>(allocator, player_count);
     board.player_turn = 0;
 
